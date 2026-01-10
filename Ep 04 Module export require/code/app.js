@@ -1,7 +1,7 @@
 // const { calculateMultiply } = require("./calulate/multiply");
 // const { x, calculateSum } = require("./calulate/sum");
 
-const { calculateMultiply, calculateSum } = require("./calculate/index");
+const { calculateMultiply, calculateSum } = require("./calculate");
 const data = require("./data.json");
 
 // ES6 module import syntax

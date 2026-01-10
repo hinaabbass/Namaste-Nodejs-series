@@ -1,4 +1,4 @@
-# 🟢 Introduction to Node.js
+# 🟢 Episode 01 - Introduction to Node.js
 
 
 ## 📖 Table of Contents
