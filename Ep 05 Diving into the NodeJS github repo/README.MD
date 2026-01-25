@@ -4,7 +4,6 @@ This README explains how Node.js modules actually work internally:
 how `require()` and `module.exports` are implemented, why module code is private, and where this logic lives in the Node.js GitHub repository.
 
 ---
-
 ## 📑 Table of Contents
 
 - [1. Function Scope vs Module Scope](#1-function-scope-vs-module-scope)
