@@ -4,11 +4,9 @@
 📑 Table of Contents
 ## 📑 Table of Contents
 
-- [Episode 06 – libuv & Async I/O](#-episode-06--libuv--async-io)
-
 - [What Is a Thread?](#what-is-a-thread)
   - [Types of Threading](#types-of-threading)
-
+  
 - [JavaScript Threading Model](#javascript-threading-model)
 
 - [Synchronous vs Asynchronous Systems](#synchronous-vs-asynchronous-systems)
