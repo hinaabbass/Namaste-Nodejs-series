@@ -1,7 +1,6 @@
 # 🟢 Episode 15. Features, HLD, LLD & Planning
 
 ## 📖 Table of Contents
-## Table of Contents
 
 - [DevTinder Project Development](#devtinder-project-development)
 - [Development Approach](#development-approach)
