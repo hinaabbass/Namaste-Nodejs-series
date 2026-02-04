@@ -88,7 +88,7 @@ app.post("/signup", async (req, res) => {
 GET APIs fetch data from the database and return it to the client.
 
 ### Example: Feed API
-```
+```js
 app.get("/feed", async (req, res) => {
   try {
     const users = await User.find({});
@@ -115,7 +115,7 @@ findOne() returns the first matching document found in the collection.
 - Use unique indexes to prevent duplicates
 
 ### Example: Find User by Email
-```
+```js
 app.get("/user", async (req, res) => {
   const userEmail = req.body.emailId;
 
@@ -139,7 +139,7 @@ app.get("/user", async (req, res) => {
 DELETE APIs remove documents from the database.
 
 ### Example: Delete User
-```
+```js
 app.delete("/user", async (req, res) => {
   const userId = req.body.userId;
 
@@ -166,7 +166,7 @@ app.delete("/user", async (req, res) => {
 PATCH updates specific fields without affecting the rest of the document.
 
 ### Example: Update User
-```
+```js
 app.patch("/user", async (req, res) => {
   const userId = req.body.userId;
   const data = req.body;
