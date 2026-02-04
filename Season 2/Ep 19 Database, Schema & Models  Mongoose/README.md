@@ -33,7 +33,7 @@ npm install mongoose
 ```
 ### Step 2: Basic Database Connection (Without .env)
 database.js 
-```database.js 
+```js 
 const mongoose = require("mongoose");
 // Connect to MongoDB
 const connectDB = async () => {
@@ -47,7 +47,7 @@ module.exports = connectDB;
 
 ```
 app.js
-```app.js
+```js
 const connectDB = require("./config/database");
 const express = require("express");
 const port = 7777;
@@ -88,7 +88,7 @@ With schemas, you can:
 MongoDB itself is schema-less, but Mongoose adds structure on top of it.
 
 Example: User Schema
-```
+```js
 const mongoose = require('mongoose');
 
 // Define schema
@@ -118,7 +118,7 @@ Once a schema and model are created, you can store data in MongoDB.
 
 Example: Insert a User Document
 
-```
+```js
 const mongoose = require('mongoose');
 const User = require('./models/User');
 
@@ -188,7 +188,7 @@ Example
 - Increments every time the document is updated
 
 Example
-```
+```js
 {
   "_id": "60d5b6f0d89a3c52a8d7c331",
   "name": "Hina",
